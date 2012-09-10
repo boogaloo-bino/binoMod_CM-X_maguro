@@ -5,5 +5,8 @@ This ROM is from CM10 Nightly
 
 Mod by bino 
 =============================
-BLOG:http://blog.sina.com.cn/u/1334172695
+Forum：http://bbs.androm.org
 ====================================
+BLOG: http://blog.sina.com.cn/u/1334172695
+====================================
+
