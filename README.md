@@ -1,4 +1,4 @@
-LBN-Mod
+bino-Mod
 ========================
 This ROM is from CM10 Nightly
 =============================
