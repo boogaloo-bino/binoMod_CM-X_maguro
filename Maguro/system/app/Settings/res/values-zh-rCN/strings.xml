@@ -2013,7 +2013,7 @@ PIN 可能不正确。"</string>
     <string name="slide_lock_delay_5m">5 分钟</string>
     <string name="slide_lock_delay_10m">10 分钟</string>
     <string name="slide_lock_delay_30m">30 分钟</string>
-    <string name="performance_settings_title">性能</string>
+    <string name="performance_settings_title">性能优化</string>
     <string name="performance_settings_warning_title">请谨慎前进！</string>
     <string name="performance_settings_warning">"这些设置完全是用于测试与实验。这里的改变将直接影响系统性能，并可能导致系统不稳定，数据丢失，与硬件损伤。
 
