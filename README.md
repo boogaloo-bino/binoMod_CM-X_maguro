@@ -1,4 +1,4 @@
-bino-mod_CM-IV
+binoMod_CM-X
 ========================
 This ROM is from CM10 Nightly
 =============================
