@@ -1,0 +1,53 @@
+#!/system/bin/sh
+
+echo ¡°4096¡å > /proc/sys/vm/min_free_kbytes
+echo ¡°0¡å > /proc/sys/vm/oom_kill_allocating_task;
+echo ¡°0¡å > /proc/sys/vm/panic_on_oom;
+echo ¡°0¡å > /proc/sys/vm/laptop_mode;
+echo ¡°0¡å > /proc/sys/vm/swappiness
+echo ¡°50¡å > /proc/sys/vm/vfs_cache_pressure
+echo ¡°90¡å > /proc/sys/vm/dirty_ratio
+echo ¡°70¡å > /proc/sys/vm/dirty_background_ratio
+echo ¡°2048,3072,6144,15360,17920,20480¡å > /sys/module/lowmemorykiller/parameters/minfree
+echo ¡°8¡å > /proc/sys/vm/page-cluster;
+echo ¡°64000¡å > /proc/sys/kernel/msgmni;
+echo ¡°64000¡å > /proc/sys/kernel/msgmax;
+echo ¡°10¡å > /proc/sys/fs/lease-break-time;
+echo ¡°500,512000,64,2048¡å > /proc/sys/kernel/sem;
+tune2fs -o journal_data_writeback /block/path/to/system
+tune2fs -O ^has_journal /block/path/to/system
+tune2fs -o journal_data_writeback /block/path/to/cache
+tune2fs -O ^has_journal /block/path/to/cache
+tune2fs -o journal_data_writeback /block/path/to/data
+tune2fs -O ^has_journal /block/path/to/data
+LOOP=`ls -d /sys/block/loop*`;
+RAM=`ls -d /sys/block/ram*`;
+MMC=`ls -d /sys/block/mmc*`;
+for j in $LOOP $RAM
+do
+echo ¡°0¡å > $j/queue/rotational;
+echo ¡°2048¡å > $j/queue/read_ahead_kb;
+done
+for i in \
+`find /data -iname ¡°*.db¡±`
+do \
+sqlite3 $i ¡®VACUUM;¡¯;
+done
+CACHESIZE=$(df -k /cache | tail -n1 | tr -s ¡¯ ¡¯ | cut -d ¡¯ ¡¯ -f2)
+if [ $CACHESIZE -gt 80000 ]
+then
+echo ¡±Large cache detected, moving dalvik-cache to /cache¡±
+if [ ! -d /cache/dalvik-cache ]
+then
+busybox rm -rf /cache/dalvik-cache /data/dalvik-cache
+mkdir /cache/dalvik-cache /data/dalvik-cache
+fi
+busybox chown 1000:1000 /cache/dalvik-cache
+busybox chmod 0771 /cache/dalvik-cache
+# bind mount dalvik-cache so we can still boot without the sdcard
+busybox mount -o bind /cache/dalvik-cache /data/dalvik-cache
+busybox chown 1000:1000 /data/dalvik-cache
+busybox chmod 0771 /data/dalvik-cache
+else
+echo ¡±Small cache detected, dalvik-cache will remain on /data¡±
+fi
