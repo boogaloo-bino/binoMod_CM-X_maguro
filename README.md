@@ -7,6 +7,6 @@ Mod by bino
 =============================
 Forum：http://bbs.androm.org
 ====================================
-BLOG: http://blog.sina.com.cn/u/1334172695
+BLOG:  http://blog.sina.com.cn/u/1334172695
 ====================================
 
