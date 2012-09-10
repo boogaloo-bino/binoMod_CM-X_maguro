@@ -1,4 +1,4 @@
-binoMod_CM-X
+binoMod_CM-X_maguro
 ========================
 This ROM is from CM10 Nightly
 =============================
