@@ -348,4 +348,6 @@
     <string name="Multiple_Short">多个短振动</string>
     <string name="Multiple_Long">多个长振动</string>
     <string name="button_templates">模板</string>
+    <string name="pref_dark_theme_title">使用黑色主题</string>
+    <string name="pref_dark_theme_summary">如果不选择，将被使用默认的白色的主题</string>
 </resources>
