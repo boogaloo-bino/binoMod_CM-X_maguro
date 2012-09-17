@@ -516,6 +516,9 @@
     <string name="wifi_setting_frequency_band_title">Wi-Fi 频带</string>
     <string name="wifi_setting_frequency_band_summary">指定操作的频率范围</string>
     <string name="wifi_setting_frequency_band_error">设置频带时出现问题。</string>
+    <string name="wifi_setting_countrycode_title">Wi-Fi区域代码</string>
+    <string name="wifi_setting_countrycode_summary">指定区域代码的Wi-Fi</string>
+    <string name="wifi_setting_countrycode_error">区域代码设置有问题。</string>
     <string name="wifi_advanced_mac_address_title">MAC 地址</string>
     <string name="wifi_advanced_ip_address_title">IP 地址</string>
     <string name="wifi_advanced_settings_label">IP 设置</string>
@@ -1146,6 +1149,7 @@ PIN 可能不正确。"</string>
     <string name="accessibility_services_title">服务</string>
     <string name="accessibility_system_title">系统</string>
     <string name="accessibility_toggle_large_text_title">大号字体</string>
+    <string name="accessibility_home_button_answers_call_title">Home键回拨</string>
     <string name="accessibility_power_button_ends_call_title">按“电源”按钮结束通话</string>
     <string name="accessibility_speak_password_title">说出密码</string>
     <string name="accessibility_long_press_timeout_title">触摸和按住延迟</string>
@@ -1902,6 +1906,10 @@ PIN 可能不正确。"</string>
     <string name="lockscreen_battery_status_title">电池状态</string>
     <string name="lockscreen_battery_status_charging">仅在充电时显示</string>
     <string name="lockscreen_battery_status_alwayson">总是显示</string>
+    <string name="lockscreen_clock_align_title">时钟校准</string>
+    <string name="lockscreen_clock_align_left">左</string>
+    <string name="lockscreen_clock_align_center">中间</string>
+    <string name="lockscreen_clock_align_right">右</string>
     <string name="profiles_settings_title">情景模式</string>
     <string name="profiles_general_title">常规</string>
     <string name="profiles_add">添加</string>

@@ -559,11 +559,11 @@
     <string name="phone_number_summary">设置此设备的电话号码</string>
     <string name="advanced_setting">高级设置</string>
     <string name="vibrate_outgoing">接听震动</string>
-    <string name="vibrate_outgoing_sum">当对方接听时震动</string>
+    <string name="vibrate_call_waiting">呼叫等待震动</string>
+    <string name="vibrate_hangup">挂断震动</string>
     <string name="vibrate_45">45秒震动</string>
     <string name="vibrate_45_sum">呼出通话到达每分钟的45秒时震动</string>
-    <string name="vibrate_hangup">挂断震动</string>
+    <string name="vibrate_outgoing_sum">当对方接听时震动</string>
     <string name="vibrate_hangup_sum">通话结束时震动</string>
-    <string name="vibrate_call_waiting">呼叫等待震动</string>
     <string name="vibrate_call_waiting_sum">当呼叫等待时震动</string>
 </resources>
