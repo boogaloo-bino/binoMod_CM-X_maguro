@@ -544,6 +544,9 @@ Just bring the devices together (typically back to back) and then touch your scr
     <string name="wifi_setting_frequency_band_title">Wi-Fi frequency band</string>
     <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
     <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <string name="wifi_setting_countrycode_title">Wi-Fi region code</string>
+    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi-Fi</string>
+    <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
     <string name="wifi_advanced_mac_address_title">MAC address</string>
     <string name="wifi_advanced_ip_address_title">IP address</string>
     <string name="wifi_advanced_settings_label">IP settings</string>
@@ -1214,6 +1217,7 @@ Some apps may not work until updated by their developers."</string>
     <string name="accessibility_services_title">Services</string>
     <string name="accessibility_system_title">System</string>
     <string name="accessibility_toggle_large_text_title">Large text</string>
+    <string name="accessibility_home_button_answers_call_title">Home button answers call</string>
     <string name="accessibility_power_button_ends_call_title">Power button ends call</string>
     <string name="accessibility_speak_password_title">Speak passwords</string>
     <string name="accessibility_long_press_timeout_title">Touch &amp; hold delay</string>
@@ -1834,6 +1838,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="navigation_bar_reset_message">Delete current settings and restore to default?</string>
     <string name="navigation_bar_save_message">Navigation bar settings saved</string>
     <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
+    <string name="navigation_bar_menu_editable">Editable</string>
+    <string name="navigation_bar_menu_locked">Locked</string>
     <string name="hardware_keys_title">Hardware keys</string>
     <string name="hardware_keys_bindings_title">Key actions</string>
     <string name="hardware_keys_enable_custom_title">Enable custom actions</string>
@@ -1985,6 +1991,10 @@ Set a custom location or enable network location"</string>
     <string name="lockscreen_battery_status_title">Battery status</string>
     <string name="lockscreen_battery_status_charging">Only when charging</string>
     <string name="lockscreen_battery_status_alwayson">Always on</string>
+    <string name="lockscreen_clock_align_title">Clock alignment</string>
+    <string name="lockscreen_clock_align_left">Left</string>
+    <string name="lockscreen_clock_align_center">Center</string>
+    <string name="lockscreen_clock_align_right">Right</string>
     <string name="profiles_settings_title">Profiles</string>
     <string name="profiles_general_title">General</string>
     <string name="profiles_add">Add</string>

@@ -132,4 +132,13 @@
     <string name="accessibility_rotation_lock_off">屏幕会自动旋转。</string>
     <string name="accessibility_rotation_lock_on_landscape">屏幕锁定为横向模式。</string>
     <string name="accessibility_rotation_lock_on_portrait">屏幕锁定为纵向模式。</string>
+    <string name="navbar_dialog_title">Choose action to assign</string>
+    <string name="navbar_home_button">Home键</string>
+    <string name="navbar_recent_button">最近任务键</string>
+    <string name="navbar_search_button">搜索键</string>
+    <string name="navbar_back_button">返回键</string>
+    <string name="navbar_empty_button">空</string>
+    <string name="navbar_menu_conditional_button">菜单键（自动隐藏）</string>
+    <string name="navbar_menu_always_button">菜单键（总是显示）</string>
+    <string name="navbar_menu_big_button">菜单键</string>
 </resources>

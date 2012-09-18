@@ -142,6 +142,9 @@
     <string name="pref_summary_notification_vibrateWhen">收到通知时还振动提醒</string>
     <string name="pref_title_notification_ringtone">选择铃声</string>
     <string name="pref_messages_to_save">设置要保存的信息数量</string>
+    <string name="prefDefault_vibrateWhen">从不</string>
+    <string name="prefDefault_vibrate_true">总是</string>
+    <string name="prefDefault_vibrate_false">从不</string>
     <string name="prefDialogTitle_vibrateWhen">振动</string>
     <string name="pref_title_mms_auto_retrieval">自动检索</string>
     <string name="pref_summary_mms_auto_retrieval">自动检索信息</string>
@@ -240,10 +243,13 @@
     <string name="copy_to_sdcard">保存附件</string>
     <string name="copy_to_sdcard_success">已保存附件。</string>
     <string name="copy_to_sdcard_fail">无法保存附件。</string>
+    <string name="copy_to_sdcard_filename_fallback">彩信</string>
     <string name="save_ringtone">另存为铃声</string>
     <string name="saved_ringtone">已保存铃声。</string>
     <string name="saved_ringtone_fail">无法保存铃声。</string>
+    <string name="save_ringtone_filename_fallback">彩信铃声</string>
     <string name="menu_insert_smiley">插入表情符号</string>
+    <string name="menu_insert_emoji">插入emojis</string>
     <string name="select_link_title">选择操作</string>
     <string name="slide_number">幻灯片 %s</string>
     <string name="delivery_report_activity">发送报告</string>
@@ -277,6 +283,8 @@
     <string name="message_count_notification">%1$s 条新短信</string>
     <string name="error_state">状态不一致</string>
     <string name="error_state_text">会话邮件集和收件人的状态不一致。请为错误截图，并通过 http://go/droidanizer 向我们报告这一问题</string>
+    <string name="label_mms_push">彩信推送</string>
+    <string name="desc_mms_push">从发件箱向网络推送彩信</string>
     <string name="disable_notifications_dialog_message">要停止从默认“短信”应用接收重复的短信通知吗？</string>
     <string name="view_more_conversations">查看更多会话</string>
     <string name="attachment_audio">音频</string>
@@ -333,9 +341,12 @@
     <string name="pref_wake_unlock_summary">当收到消息时唤醒并解锁设备（仅不安全锁定屏幕）</string>
     <string name="pref_close_all_title">关闭所有</string>
     <string name="pref_close_all_summary">使用关闭按钮关闭所有消息</string>
+    <string name="pref_dark_theme_title">使用黑色主题</string>
+    <string name="pref_dark_theme_summary">如果不选择，将被使用默认的白色的主题</string>
     <string name="message_counter_separator">of</string>
     <string name="button_close">关闭</string>
     <string name="button_view">查看</string>
+    <string name="button_templates">模板</string>
     <string name="type_to_reply_text_enter_to_send">请输入回复</string>
     <string name="toast_sending_message">正在发送短信</string>
     <string name="qm_quick_reply">快速回复</string>
@@ -347,7 +358,4 @@
     <string name="Long_Vibrate">长振动</string>
     <string name="Multiple_Short">多个短振动</string>
     <string name="Multiple_Long">多个长振动</string>
-    <string name="button_templates">模板</string>
-    <string name="pref_dark_theme_title">使用黑色主题</string>
-    <string name="pref_dark_theme_summary">如果不选择，将被使用默认的白色的主题</string>
 </resources>

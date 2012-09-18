@@ -243,9 +243,11 @@ Attempt made: %s."</string>
     <string name="copy_to_sdcard">Save attachment</string>
     <string name="copy_to_sdcard_success">Attachment saved.</string>
     <string name="copy_to_sdcard_fail">"Couldn't save attachment."</string>
+    <string name="copy_to_sdcard_filename_fallback">mms</string>
     <string name="save_ringtone">Save as ringtone</string>
     <string name="saved_ringtone">Ringtone saved.</string>
     <string name="saved_ringtone_fail">"Couldn't save ringtone."</string>
+    <string name="save_ringtone_filename_fallback">mms_ringtone</string>
     <string name="menu_insert_smiley">Insert smiley</string>
     <string name="menu_insert_emoji">Insert emojis</string>
     <string name="select_link_title">Choose action</string>
@@ -281,6 +283,8 @@ Attempt made: %s."</string>
     <string name="message_count_notification">%1$s new messages</string>
     <string name="error_state">Inconsistent state</string>
     <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>
+    <string name="label_mms_push">MMS Push</string>
+    <string name="desc_mms_push">Pushes MMS from outbox to the network</string>
     <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
     <string name="view_more_conversations">View more conversations</string>
     <string name="attachment_audio">Audio</string>
