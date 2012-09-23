@@ -683,6 +683,16 @@
         <item>18</item>
         <item>26</item>
     </string-array>
+    <string-array name="entries_status_bar_clock_style">
+        <item>@string/clock_style_noclock</item>
+        <item>@string/clock_style_right</item>
+        <item>@string/clock_style_center</item>
+    </string-array>
+    <string-array name="values_status_bar_clock_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
         <item>Small</item>
@@ -1048,6 +1058,42 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="sms_security_check_limit_entries">
+        <item>15</item>
+        <item>@string/sms_security_check_limit_default</item>
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="sms_security_check_limit_values">
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="nav_buttons_height_entries">
+        <item>@string/navigation_bar_height_48</item>
+        <item>@string/navigation_bar_height_44</item>
+        <item>@string/navigation_bar_height_40</item>
+        <item>@string/navigation_bar_height_36</item>
+        <item>@string/navigation_bar_height_32</item>
+        <item>@string/navigation_bar_height_28</item>
+        <item>@string/navigation_bar_height_24</item>
+    </string-array>
+    <string-array name="nav_buttons_height_values">
+        <item>48</item>
+        <item>44</item>
+        <item>40</item>
+        <item>36</item>
+        <item>32</item>
+        <item>28</item>
+        <item>24</item>
     </string-array>
     <string-array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>

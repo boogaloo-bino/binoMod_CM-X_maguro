@@ -1758,6 +1758,16 @@ PIN 可能不正确。"</string>
     <string name="navigation_bar_reset_toast">虚拟键设置已还原为系统默认值</string>
     <string name="navigation_bar_menu_editable">编辑</string>
     <string name="navigation_bar_menu_locked">锁定</string>
+    <string name="navigation_bar_edit_title">虚拟键自定义</string>
+    <string name="navigation_bar_edit_summary">编辑虚拟键布局</string>
+    <string name="navigation_bar_height">虚拟键高度</string>
+    <string name="navigation_bar_height_48">48dp (default)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
     <string name="hardware_keys_title">物理按键</string>
     <string name="hardware_keys_bindings_title">按键行为</string>
     <string name="hardware_keys_enable_custom_title">允许自定义的行为</string>
@@ -1826,7 +1836,10 @@ PIN 可能不正确。"</string>
     <string name="status_bar_title">状态栏</string>
     <string name="status_bar_clock_title">时钟</string>
     <string name="status_bar_general_title">常规</string>
-    <string name="status_bar_show_clock_title">显示时钟</string>
+    <string name="status_bar_clock_style_title">时钟风格</string>
+    <string name="clock_style_noclock">不显示</string>
+    <string name="clock_style_right">右侧</string>
+    <string name="clock_style_center">居中</string>
     <string name="status_bar_am_pm_title">上午/下午样式</string>
     <string name="status_bar_am_pm_info">24小时时钟已启用</string>
     <string name="status_bar_battery_title">电池状态样式</string>
@@ -2203,4 +2216,8 @@ PIN 可能不正确。"</string>
     <string name="volume_key_cursor_control_off">禁用</string>
     <string name="volume_key_cursor_control_on">音量向上/向下移动光标左/右</string>
     <string name="volume_key_cursor_control_on_reverse">音量向上/向下移动光标左/右</string>
+    <string name="app_security_title">应用安全</string>
+    <string name="sms_security_check_limit_title">SMS安全信息限制</string>
+    <string name="sms_security_check_limit_summary">收到警报，当一个应用程序发送的消息太多（%d封邮件在15分钟内）</string>
+    <string name="sms_security_check_limit_default">30 (默认)</string>
 </resources>

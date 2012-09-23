@@ -1840,6 +1840,16 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
     <string name="navigation_bar_menu_editable">Editable</string>
     <string name="navigation_bar_menu_locked">Locked</string>
+    <string name="navigation_bar_edit_title">Button customization</string>
+    <string name="navigation_bar_edit_summary">Edit button layout</string>
+    <string name="navigation_bar_height">Button height</string>
+    <string name="navigation_bar_height_48">48dp (default)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
     <string name="hardware_keys_title">Hardware keys</string>
     <string name="hardware_keys_bindings_title">Key actions</string>
     <string name="hardware_keys_enable_custom_title">Enable custom actions</string>
@@ -1909,7 +1919,10 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_clock_title">Clock</string>
     <string name="status_bar_general_title">General</string>
-    <string name="status_bar_show_clock_title">Show clock</string>
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="clock_style_noclock">Do not show the clock</string>
+    <string name="clock_style_right">Right clock</string>
+    <string name="clock_style_center">Center clock</string>
     <string name="status_bar_am_pm_title">AM/PM style</string>
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="status_bar_battery_title">Battery status style</string>
@@ -2290,4 +2303,8 @@ Do you really want to enable this function?"</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="app_security_title">APP SECURITY</string>
+    <string name="sms_security_check_limit_title">SMS security message limit</string>
+    <string name="sms_security_check_limit_summary">Receive an alert when an app sends too many messages (%d messages in 15 min)</string>
+    <string name="sms_security_check_limit_default">30 (Default)</string>
 </resources>
