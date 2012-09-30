@@ -1111,7 +1111,7 @@ PIN 可能不正确。"</string>
     <string name="keep_screen_on">不锁定屏幕</string>
     <string name="keep_screen_on_summary">充电时屏幕不会休眠</string>
     <string name="allow_mock_location">允许模拟位置</string>
-    <string name="allow_mock_location_summary">允许模拟位置</string>
+    <string name="allow_mock_sms">允许模拟SMS</string>
     <string name="adb_warning_title">是否允许 USB 调试？</string>
     <string name="adb_warning_message">USB 调试仅适用于开发工作。该功能可用于在您的计算机和设备之间复制数据、在您的设备上安装应用而不发送通知以及读取日志数据。</string>
     <string name="dev_settings_warning_title">允许开发设置？</string>

@@ -142,6 +142,8 @@ Attempt made: %s."</string>
     <string name="pref_summary_notification_vibrateWhen">Also vibrate when notified</string>
     <string name="pref_title_notification_ringtone">Choose ringtone</string>
     <string name="pref_messages_to_save">Set number of messages to save</string>
+    <string name="pref_title_input_type">Soft keyboard type</string>
+    <string name="pref_summary_input_type">Select the soft keyboard to use when composing messages</string>
     <string name="prefDefault_vibrateWhen">never</string>
     <string name="prefDefault_vibrate_true">always</string>
     <string name="prefDefault_vibrate_false">never</string>
@@ -334,6 +336,9 @@ Attempt made: %s."</string>
     <string name="pref_summary_mms_full_timestamp">Display both date and time in timestamps</string>
     <string name="pref_title_mms_use_sent_timestamp">Original timestamps</string>
     <string name="pref_summary_mms_use_sent_timestamp">Display sent date instead of received date in timestamps</string>
+    <string name="pref_keyboard_emoji">Emoji</string>
+    <string name="pref_keyboard_send">Enter to Send</string>
+    <string name="pref_keyboard_new_line">Enter for a new line</string>
     <string name="pref_quickmessage">QuickMessage</string>
     <string name="pref_quickmessage_title">Enable QuickMessage</string>
     <string name="pref_quickmessage_summary">Display the QuickMessage pop-up dialog</string>

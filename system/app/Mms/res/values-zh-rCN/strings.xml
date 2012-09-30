@@ -142,6 +142,8 @@
     <string name="pref_summary_notification_vibrateWhen">收到通知时还振动提醒</string>
     <string name="pref_title_notification_ringtone">选择铃声</string>
     <string name="pref_messages_to_save">设置要保存的信息数量</string>
+    <string name="pref_title_input_type">软键盘类型</string>
+    <string name="pref_summary_input_type">选择撰写邮件时，使用软键盘</string>
     <string name="prefDefault_vibrateWhen">从不</string>
     <string name="prefDefault_vibrate_true">总是</string>
     <string name="prefDefault_vibrate_false">从不</string>
@@ -334,8 +336,11 @@
     <string name="pref_summary_mms_full_timestamp">同时显示日期和时间的的时间标签</string>
     <string name="pref_title_mms_use_sent_timestamp">原始的时间标签</string>
     <string name="pref_summary_mms_use_sent_timestamp">显示发送日期，而不是收到的日期的时间标签</string>
-    <string name="pref_quickmessage">短信弹出</string>
+    <string name="pref_keyboard_emoji">Emoji</string>
+    <string name="pref_keyboard_send">回车发送</string>
     <string name="pref_quickmessage_title">启用短信弹出</string>
+    <string name="pref_quickmessage">短信弹出</string>
+    <string name="pref_keyboard_new_line">输入新的一行</string>
     <string name="pref_quickmessage_summary">显示短信弹出式对话框</string>
     <string name="pref_wake_unlock_title">唤醒和解锁</string>
     <string name="pref_wake_unlock_summary">当收到消息时唤醒并解锁设备（仅不安全锁定屏幕）</string>

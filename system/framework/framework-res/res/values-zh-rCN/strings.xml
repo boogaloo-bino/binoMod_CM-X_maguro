@@ -357,6 +357,8 @@
     <string name="permdesc_readCellBroadcasts">允许应用读取您的设备收到的小区广播消息。小区广播消息是在某些地区发送的、用于发布紧急情况警告的提醒信息。恶意应用可能会在您收到小区紧急广播时干扰您设备的性能或操作。</string>
     <string name="permlab_sendSms">发送短信</string>
     <string name="permdesc_sendSms">允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。</string>
+    <string name="permlab_sendMockSms">发送模拟短信</string>
+    <string name="permdesc_sendMockSms">允许应用程序发送模拟的短信。这允许应用程序发送短信到受信任的应用程序。恶意应用程序可连续发送消息，阻塞设备通知系统中断用户。</string>
     <string name="permlab_sendSmsNoConfirmation">不经确认直接发送短信</string>
     <string name="permdesc_sendSmsNoConfirmation">允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。</string>
     <string name="permlab_readSms">读取您的文字讯息（短信或彩信）</string>

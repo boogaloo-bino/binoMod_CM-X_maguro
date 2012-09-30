@@ -1179,7 +1179,7 @@ Ready to start? Touch Next."</string>
     <string name="keep_screen_on">Stay awake</string>
     <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
     <string name="allow_mock_location">Allow mock locations</string>
-    <string name="allow_mock_location_summary">Allow mock locations</string>
+    <string name="allow_mock_sms">Allow mock SMS</string>
     <string name="adb_warning_title">Allow USB debugging?</string>
     <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
     <string name="dev_settings_warning_title">Allow development settings?</string>
