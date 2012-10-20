@@ -683,16 +683,6 @@
         <item>18</item>
         <item>26</item>
     </string-array>
-    <string-array name="entries_status_bar_clock_style">
-        <item>@string/clock_style_noclock</item>
-        <item>@string/clock_style_right</item>
-        <item>@string/clock_style_center</item>
-    </string-array>
-    <string-array name="values_status_bar_clock_style">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
         <item>Small</item>
@@ -704,19 +694,23 @@
         <item>2</item>
     </string-array>
     <string-array name="entries_status_bar_battery">
-        <item>Icon (default)</item>
-        <item>Percentage</item>
-        <item>Hidden</item>
+        <item>@string/status_bar_style_icon</item>
+        <item>@string/status_bar_battery_status_percentage</item>
+        <item>@string/status_bar_battery_status_circle</item>
+        <item>@string/status_bar_battery_status_circle_percentage</item>
+        <item>@string/status_bar_style_hidden</item>
     </string-array>
     <string-array name="values_status_bar_battery">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
     <string-array name="entries_status_bar_signal">
-        <item>@string/status_bar_signal_text_show_bars</item>
+        <item>@string/status_bar_style_icon</item>
         <item>@string/status_bar_signal_text_show_text</item>
-        <item>@string/status_bar_signal_text_hidden</item>
+        <item>@string/status_bar_style_hidden</item>
     </string-array>
     <string-array name="values_status_bar_signal">
         <item>0</item>
@@ -880,7 +874,7 @@
         <item>@string/pulse_length_very_long</item>
     </string-array>
     <string-array name="notification_pulse_length_values">
-        <item>0</item>
+        <item>1</item>
         <item>250</item>
         <item>500</item>
         <item>1000</item>

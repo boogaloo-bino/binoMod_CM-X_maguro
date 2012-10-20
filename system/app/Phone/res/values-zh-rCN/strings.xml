@@ -558,6 +558,10 @@
     <string name="phone_number_label">我的电话号码</string>
     <string name="phone_number_summary">设置此设备的电话号码</string>
     <string name="advanced_setting">高级设置</string>
+    <string name="keep_proximity_sensor_on">保持接近传感器</string>
+    <string name="keep_proximity_sensor_on_sum">在通话过程中使用耳机时，不要关闭接近传感器</string>
+    <string name="lockscreen_if_call_ends_with_screenoff">通话结束时锁定</string>
+    <string name="lockscreen_if_call_ends_with_screenoff_sum">呼叫结束时，自动锁定和屏幕关闭</string>
     <string name="vibrate_outgoing">对方接听时震动</string>
     <string name="vibrate_call_waiting">呼叫等待时震动</string>
     <string name="vibrate_hangup">通话结束时震动</string>

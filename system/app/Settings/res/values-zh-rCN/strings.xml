@@ -265,7 +265,7 @@
     <string name="owner_info_settings_title">机主信息</string>
     <string name="owner_info_settings_summary" />
     <string name="owner_info_settings_edit_text_hint">键入要在锁定屏幕上显示的文字</string>
-    <string name="location_settings_title">位置服务</string>
+    <string name="location_settings_title">位置信息访问权限</string>
     <string name="security_settings_title">安全</string>
     <string name="security_settings_summary">设置我的位置、屏幕解锁、SIM 卡锁定和凭据存储锁定</string>
     <string name="cdma_security_settings_summary">设置我的位置、屏幕解锁和凭据存储锁定</string>
@@ -481,7 +481,7 @@
     <string name="wifi_ssid">网络 SSID</string>
     <string name="wifi_security">安全性</string>
     <string name="wifi_signal">信号强度</string>
-    <string name="wifi_status">状态消息</string>
+    <string name="wifi_status">状态信息</string>
     <string name="wifi_speed">连接速度</string>
     <string name="wifi_ip_address">IP 地址</string>
     <string name="wifi_eap_method">EAP 方法</string>
@@ -568,7 +568,6 @@
     <string name="media_volume_title">媒体</string>
     <string name="media_volume_summary">设置音乐和视频的音量</string>
     <string name="alarm_volume_title">闹钟</string>
-    <string name="dock_settings_summary">附加基座的音频设置</string>
     <string name="dtmf_tone_enable_title">拨号键盘触摸音效</string>
     <string name="sound_effects_enable_title">触摸提示音</string>
     <string name="lock_sounds_enable_title">锁屏提示音</string>
@@ -585,6 +584,7 @@
     <string name="vibrate_when_ringing_title">响铃时振动</string>
     <string name="dock_settings">基座</string>
     <string name="dock_settings_title">基座设置</string>
+    <string name="dock_settings_summary">附加基座的蓝牙音频设置</string>
     <string name="dock_audio_settings_title">音频</string>
     <string name="dock_audio_summary_desk">附加桌面基座的设置</string>
     <string name="dock_audio_summary_car">附加车载基座的设置</string>
@@ -595,6 +595,9 @@
     <string name="dock_sounds_enable_title">插入基座提示音</string>
     <string name="dock_sounds_enable_summary_on">手机插入基座或拔出时发出声音</string>
     <string name="dock_sounds_enable_summary_off">手机插入基座或拔出时不发出声音</string>
+    <string name="dock_force_undock_title">强行断开对接</string>
+    <string name="dock_force_undock_summary_no_dock">手机没有对接</string>
+    <string name="dock_force_undock_summary">请断开对接的手机</string>
     <string name="account_settings">帐户</string>
     <string name="search_settings">搜索</string>
     <string name="search_settings_summary">管理搜索设置和历史记录</string>
@@ -651,8 +654,8 @@ PIN 可能不正确。"</string>
     <string name="kernel_version">内核版本</string>
     <string name="build_number">版本号</string>
     <string name="device_info_not_available">不可用</string>
-    <string name="device_status_activity_title">状态消息</string>
-    <string name="device_status">状态消息</string>
+    <string name="device_status_activity_title">状态信息</string>
+    <string name="device_status">状态信息</string>
     <string name="device_status_summary">电话号码、信号等</string>
     <string name="storage_settings">存储</string>
     <string name="storage_settings_title">存储设置</string>
@@ -811,11 +814,11 @@ PIN 可能不正确。"</string>
     <string name="tethering_help_button_text">帮助</string>
     <string name="network_settings_title">移动网络</string>
     <string name="location_title">我的位置</string>
-    <string name="location_network_based">Google 的位置服务</string>
-    <string name="location_neighborhood_level">允许系统向 Google 发送匿名位置数据。同时允许具有权限的应用使用来自 Wi-Fi 和移动网络等来源的数据，以便确定您所在的大概位置。</string>
+    <string name="location_network_based">Wi-Fi 和移动网络位置信息</string>
+    <string name="location_neighborhood_level">允许应用使用 Google 位置服务更快地大致了解您所在的位置。系统将收集匿名位置数据并将其发送给 Google。</string>
     <string name="location_neighborhood_level_wifi">通过 Wi-Fi 确定位置</string>
     <string name="location_gps">GPS 卫星定位</string>
-    <string name="location_street_level">允许应用使用 GPS 对您进行定位</string>
+    <string name="location_street_level">允许应用使用您手机上的 GPS 定位您的位置</string>
     <string name="assisted_gps">使用增强型 GPS</string>
     <string name="assisted_gps_enabled">使用服务器来辅助 GPS（取消选中可降低网络使用率）</string>
     <string name="assisted_gps_disabled">使用服务器来辅助 GPS（取消选中可提高 GPS 性能）</string>
@@ -825,6 +828,9 @@ PIN 可能不正确。"</string>
     <string name="location_gps_source_summary">选择使用一个外置的蓝牙 GPS 天线或内置的 GPS 天线定位</string>
     <string name="location_gps_source_notification_title">警告</string>
     <string name="location_gps_source_notification">GPS 来源已被切换! GPS 将停用。请在使用前重新开启!</string>
+    <string name="location_access_title">访问我的位置信息</string>
+    <string name="location_access_summary">允许得到您许可的应用使用您的位置信息</string>
+    <string name="location_sources_heading">位置信息来源</string>
     <string name="about_settings">关于手机</string>
     <string name="about_settings_summary">查看法律信息、状态和软件版本</string>
     <string name="legal_information">法律信息</string>
@@ -1177,7 +1183,7 @@ PIN 可能不正确。"</string>
     <string name="power_usage_level_and_status" formatted="false">%1$s - %2$s</string>
     <string name="battery_since_unplugged">拔下电源后的电量消耗情况</string>
     <string name="battery_since_reset">重置后的电量消耗情况</string>
-    <string name="battery_stats_on_battery">电池电量已用时间：%1$s</string>
+    <string name="battery_stats_on_battery">电池已用时间：%1$s</string>
     <string name="battery_stats_duration">拔下电源后已过 %1$s</string>
     <string name="battery_stats_charging_label">正在充电</string>
     <string name="battery_stats_screen_on_label">屏幕已开启</string>
@@ -1836,10 +1842,7 @@ PIN 可能不正确。"</string>
     <string name="status_bar_title">状态栏</string>
     <string name="status_bar_clock_title">时钟</string>
     <string name="status_bar_general_title">常规</string>
-    <string name="status_bar_clock_style_title">时钟风格</string>
-    <string name="clock_style_noclock">不显示</string>
-    <string name="clock_style_right">右侧</string>
-    <string name="clock_style_center">居中</string>
+    <string name="status_bar_show_clock_title">显示时钟</string>
     <string name="status_bar_am_pm_title">上午/下午样式</string>
     <string name="status_bar_am_pm_info">24小时时钟已启用</string>
     <string name="status_bar_battery_title">电池状态样式</string>
@@ -1847,9 +1850,12 @@ PIN 可能不正确。"</string>
     <string name="status_bar_toggle_brightness_summary">在状态栏上左右滑动以调整亮度</string>
     <string name="status_bar_toggle_info">亮度自动调整已启用</string>
     <string name="status_bar_signal_text_title">信号状态样式</string>
-    <string name="status_bar_signal_text_show_bars">图标（默认）</string>
+    <string name="status_bar_style_icon">图标</string>
+    <string name="status_bar_style_hidden">隐藏</string>
     <string name="status_bar_signal_text_show_text">文字</string>
-    <string name="status_bar_signal_text_hidden">隐藏</string>
+    <string name="status_bar_battery_status_percentage">百分比</string>
+    <string name="status_bar_battery_status_circle">环形</string>
+    <string name="status_bar_battery_status_circle_percentage">环形与百分比</string>
     <string name="lock_screen_title">锁屏界面</string>
     <string name="lockscreen_target_info">把滑块拉到指定的位置以选择快捷方式。</string>
     <string name="lockscreen_target_title">解锁界面</string>
@@ -2042,7 +2048,7 @@ PIN 可能不正确。"</string>
 
 如果您更改了这里的设置，我们请求您不要向我们提交 Bug 报告。"</string>
     <string name="processor_title">处理器</string>
-    <string name="processor_summary">更改CPU调节器以及时钟速度</string>
+    <string name="processor_summary">更改 CPU 调节器以及时钟速度</string>
     <string name="cpu_cur_freq_title">当前 CPU 频率</string>
     <string name="cpu_governors_title">CPU 调节器</string>
     <string name="cpu_min_freq_title">最低 CPU 频率</string>
@@ -2050,13 +2056,13 @@ PIN 可能不正确。"</string>
     <string name="cpu_max_freq_title">最高 CPU 频率</string>
     <string name="cpu_max_freq_summary">%s</string>
     <string name="cpu_set_on_boot">启动时设置</string>
-    <string name="cpu_set_on_boot_summary">在启动时恢复当前的CPU设置</string>
-    <string name="io_scheds_title">I/O调度</string>
-    <string name="io_scheds_summary">更改I/O调度</string>
-    <string name="io_sched_title">I/O调度</string>
+    <string name="cpu_set_on_boot_summary">在启动时恢复当前的 CPU 设置</string>
+    <string name="io_scheds_title">I/O 调度器</string>
+    <string name="io_scheds_summary">更改 I/O 调度器</string>
+    <string name="io_sched_title">I/O 调度器</string>
     <string name="io_sched_summary">%S</string>
     <string name="io_sched_set_on_boot">启动时设置</string>
-    <string name="io_sched_set_on_boot_summary">启动时还原I/O调度器设置</string>
+    <string name="io_sched_set_on_boot_summary">在启动时恢复当前的 I/O 调度器设置</string>
     <string name="memory_management_title">内存管理</string>
     <string name="memory_management_summary">自定义内存使用以改变系统性能</string>
     <string name="pref_zram_title">zRam</string>
@@ -2203,19 +2209,23 @@ PIN 可能不正确。"</string>
     <string name="changelog_error">无法读取变更日志</string>
     <string name="changelog_unknown">未知</string>
     <string name="changelog_version">版本</string>
+    <string name="changelog_close">关闭</string>
     <string name="stylus_icon_enabled_title">使用触控笔时显示指针</string>
     <string name="stylus_icon_enabled_summary">在使用触控笔的时候将会显示指针</string>
     <string name="power_menu_title">电源菜单选项</string>
     <string name="power_menu_reboot_title">重启菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>
+    <string name="power_menu_expanded_desktop">扩展桌面</string>
     <string name="power_menu_profiles_title">情景模式</string>
+    <string name="power_menu_airplane_title">飞行模式</string>
+    <string name="power_menu_silent_title">静音模式</string>
     <string name="development_tools_title">启动开发工具</string>
-    <string name="usb_mass_storage_title">大容量存储</string>
-    <string name="usb_mass_storage_summary">启用USB大容量存储</string>
-    <string name="volume_key_cursor_control_title">音量键进行光标控制</string>
+    <string name="usb_mass_storage_title">USB 大容量存储</string>
+    <string name="usb_mass_storage_summary">使用 USB 大容量存储</string>
+    <string name="volume_key_cursor_control_title">音量键光标控制</string>
     <string name="volume_key_cursor_control_off">禁用</string>
-    <string name="volume_key_cursor_control_on">音量向上/向下移动光标左/右</string>
-    <string name="volume_key_cursor_control_on_reverse">音量向上/向下移动光标左/右</string>
+    <string name="volume_key_cursor_control_on">音量上/下将会使光标左/右移动</string>
+    <string name="volume_key_cursor_control_on_reverse">音量上/下将会使光标右/左移动</string>
     <string name="app_security_title">应用安全</string>
     <string name="sms_security_check_limit_title">SMS安全信息限制</string>
     <string name="sms_security_check_limit_summary">收到警报，当一个应用程序发送的消息太多（%d封邮件在15分钟内）</string>
