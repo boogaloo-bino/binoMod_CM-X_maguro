@@ -328,7 +328,7 @@
     <string name="pref_title_mms_notification_vibrate_custom">自定义振动形式</string>
     <string name="pref_text_mms_notification_vibrate_custom">格式 关/开 每毫秒: 关, 开, 关, 开, ...</string>
     <string name="pref_extra_settings">其他设置</string>
-    <string name="pref_title_strip_unicode">除去 unicode</string>
+    <string name="pref_title_strip_unicode">除去 Unicode</string>
     <string name="pref_summary_strip_unicode">在160字符短信内把不支持的字符替换掉</string>
     <string name="pref_title_enable_emojis">绘文字支持</string>
     <string name="pref_summary_enable_emojis">开启绘文字（一套471个视觉情感符号）的支持</string>

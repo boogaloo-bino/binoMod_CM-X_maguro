@@ -2026,6 +2026,8 @@ PIN 可能不正确。"</string>
     <string name="additional_options_title">其他选项</string>
     <string name="unlock_menu_unlock_title">菜单键解锁</string>
     <string name="unlock_menu_unlock_summary">按下菜单键即可解锁设备</string>
+    <string name="unlock_home_unlock_title">Home键解锁</string>
+    <string name="unlock_home_unlock_summary">按home键解锁设备</string>
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入数字 PIN 或密码后无需按确定按钮即可解锁，按删除键重新输入。</string>
     <string name="delay_and_timeout_title">锁屏延迟</string>
@@ -2215,7 +2217,7 @@ PIN 可能不正确。"</string>
     <string name="power_menu_title">电源菜单选项</string>
     <string name="power_menu_reboot_title">重启菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>
-    <string name="power_menu_expanded_desktop">扩展桌面</string>
+    <string name="power_menu_expanded_desktop">拉伸桌面</string>
     <string name="power_menu_profiles_title">情景模式</string>
     <string name="power_menu_airplane_title">飞行模式</string>
     <string name="power_menu_silent_title">静音模式</string>

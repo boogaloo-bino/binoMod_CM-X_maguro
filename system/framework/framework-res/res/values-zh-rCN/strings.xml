@@ -286,7 +286,7 @@
     <string name="power_off">关机</string>
     <string name="reboot_system">重启手机</string>
     <string name="global_action_screenshot">屏幕截图</string>
-    <string name="global_actions_toggle_expanded_desktop_mode">扩展桌面</string>
+    <string name="global_actions_toggle_expanded_desktop_mode">拉伸桌面</string>
     <string name="global_actions_expanded_desktop_mode_on_status">启用</string>
     <string name="global_actions_expanded_desktop_mode_off_status">关闭</string>
     <string name="reboot_reboot">重新启动</string>
