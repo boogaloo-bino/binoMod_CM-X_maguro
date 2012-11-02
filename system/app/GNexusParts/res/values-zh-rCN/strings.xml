@@ -41,6 +41,9 @@
     <string name="category_radio_title">基带</string>
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">启用 HSDPA/HSUPA</string>
+    <string name="category_wifi_title">Wi-Fi</string>
+    <string name="category_wifi_pm_title">Wi-Fi 管理</string>
+    <string name="wifi_pm_title">睡眠模式</string>
     <string name="category_speed_title">GPU</string>
     <string name="category_gpu_title">GPU</string>
     <string name="gpu_overclock_title">时钟速度</string>

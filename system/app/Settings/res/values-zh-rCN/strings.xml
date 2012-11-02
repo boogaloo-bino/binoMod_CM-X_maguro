@@ -516,9 +516,9 @@
     <string name="wifi_setting_frequency_band_title">Wi-Fi 频带</string>
     <string name="wifi_setting_frequency_band_summary">指定操作的频率范围</string>
     <string name="wifi_setting_frequency_band_error">设置频带时出现问题。</string>
-    <string name="wifi_setting_countrycode_title">Wi-Fi区域代码</string>
-    <string name="wifi_setting_countrycode_summary">指定区域代码的Wi-Fi</string>
-    <string name="wifi_setting_countrycode_error">区域代码设置有问题。</string>
+    <string name="wifi_setting_countrycode_title">Wi-Fi 区域代码</string>
+    <string name="wifi_setting_countrycode_summary">指定 Wi-Fi 使用的区域码</string>
+    <string name="wifi_setting_countrycode_error">设置区域码时遇到了问题.</string>
     <string name="wifi_advanced_mac_address_title">MAC 地址</string>
     <string name="wifi_advanced_ip_address_title">IP 地址</string>
     <string name="wifi_advanced_settings_label">IP 设置</string>
@@ -1117,7 +1117,7 @@ PIN 可能不正确。"</string>
     <string name="keep_screen_on">不锁定屏幕</string>
     <string name="keep_screen_on_summary">充电时屏幕不会休眠</string>
     <string name="allow_mock_location">允许模拟位置</string>
-    <string name="allow_mock_sms">允许模拟SMS</string>
+    <string name="allow_mock_sms">允许模拟短信</string>
     <string name="adb_warning_title">是否允许 USB 调试？</string>
     <string name="adb_warning_message">USB 调试仅适用于开发工作。该功能可用于在您的计算机和设备之间复制数据、在您的设备上安装应用而不发送通知以及读取日志数据。</string>
     <string name="dev_settings_warning_title">允许开发设置？</string>
@@ -1155,7 +1155,7 @@ PIN 可能不正确。"</string>
     <string name="accessibility_services_title">服务</string>
     <string name="accessibility_system_title">系统</string>
     <string name="accessibility_toggle_large_text_title">大号字体</string>
-    <string name="accessibility_home_button_answers_call_title">Home键回拨</string>
+    <string name="accessibility_home_button_answers_call_title">按 Home 键将接通电话</string>
     <string name="accessibility_power_button_ends_call_title">按“电源”按钮结束通话</string>
     <string name="accessibility_speak_password_title">说出密码</string>
     <string name="accessibility_long_press_timeout_title">触摸和按住延迟</string>
@@ -1667,21 +1667,21 @@ PIN 可能不正确。"</string>
     <string name="backlight_title">自动背光灯调节</string>
     <string name="backlight_summary">调整亮度水平和传感器运算</string>
     <string name="light_filter_title">光线传感器运算</string>
-    <string name="light_filter_enabled_title">已启用</string>
-    <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算，以减少频繁调节亮度引起的屏幕闪烁。</string>
+    <string name="light_filter_enabled_title">启用</string>
+    <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算, 以减少频繁调节亮度引起的屏幕闪烁。</string>
     <string name="light_filter_window_title">移动平均取值长度</string>
     <string name="light_filter_window_summary">对该时间段内的光线传感器数据取平均值。</string>
     <string name="light_filter_reset_title">重置阈值</string>
-    <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该阈值，则重置移动平均值的运算，以便光线剧烈变化的情况下可迅速反应。</string>
+    <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该阈值, 则重置移动平均值的运算, 以便光线剧烈变化的情况下可迅速反应。</string>
     <string name="light_filter_interval_title">传感器采样间隔</string>
-    <string name="light_filter_interval_summary">间隔越短准确度越高，但也会消耗更多的 CPU 。</string>
+    <string name="light_filter_interval_summary">间隔越短准确度越高, 但也会消耗更多的 CPU 。</string>
     <string name="light_levels_title">亮度水平</string>
     <string name="light_levels_enabled_title">使用自定义设置</string>
     <string name="light_levels_dim_title">屏幕变暗值</string>
     <string name="light_levels_dim_summary">当使屏幕变暗时所使用的亮度水平值</string>
-    <string name="light_levels_editor_title">编辑其他值...</string>
+    <string name="light_levels_editor_title">编辑其他值…</string>
     <string name="light_decrease_enabled_title">允许降低亮度</string>
-    <string name="light_decrease_enabled_summary">开启该选项允许降低亮度，使用迟滞选项减少频繁调节亮度引起的屏幕闪烁。</string>
+    <string name="light_decrease_enabled_summary">开启该选项允许降低亮度, 使用迟滞选项减少频繁调节亮度引起的屏幕闪烁。</string>
     <string name="light_decrease_hysteresis_title">降低亮度迟滞</string>
     <string name="light_decrease_hysteresis_summary">传感器数据降低一定水平后再降低屏幕亮度。</string>
     <string name="ll_title">光线传感器取值</string>
@@ -1750,7 +1750,7 @@ PIN 可能不正确。"</string>
 
 4 - 再次点击锁定图标将会保存您的改变
 
-5 - 如果您想还原为系统默认值，请点击重置键
+5 - 如果您想还原为系统默认值, 请点击重置键
 
 "</string>
     <string name="navigation_bar_tips">"• 一个按键只能拥有一个功能
@@ -1882,9 +1882,9 @@ PIN 可能不正确。"</string>
     <string name="weather_refresh_interval">更新间隔</string>
     <string name="weather_use_metric">使用公制</string>
     <string name="weather_retrieve_location_dialog_title">无法查询位置!</string>
-    <string name="weather_retrieve_location_dialog_message">"网络定位已被禁用. 
+    <string name="weather_retrieve_location_dialog_message">"网络定位已被禁用。
 
-请设置一个自定义的位置或启用网络定位服务."</string>
+请设置一个自定义的位置或启用网络定位服务。"</string>
     <string name="weather_retrieve_location_dialog_enable_button">启用</string>
     <string name="weather_invert_lowhigh">交换高低温度显示的位置</string>
     <string name="weather_progress_title">正在审核位置</string>
@@ -1931,6 +1931,17 @@ PIN 可能不正确。"</string>
     <string name="lockscreen_clock_align_left">左</string>
     <string name="lockscreen_clock_align_center">中间</string>
     <string name="lockscreen_clock_align_right">右</string>
+    <string name="lockscreen_buttons_title">按键映射</string>
+    <string name="lockscreen_buttons_summary">查看或更改锁定屏幕按键映射</string>
+    <string name="lockscreen_long_press_back_title">长按返回键</string>
+    <string name="lockscreen_long_press_home_title">长按HOME键</string>
+    <string name="lockscreen_long_press_menu_title">长按菜单键</string>
+    <string name="lockscreen_buttons_no_action">无动作</string>
+    <string name="lockscreen_buttons_flashlight">手电筒</string>
+    <string name="lockscreen_buttons_next">下一首</string>
+    <string name="lockscreen_buttons_previous">上一首</string>
+    <string name="lockscreen_buttons_playpause">播放/暂停音乐</string>
+    <string name="lockscreen_buttons_toggle_sound">声音开关</string>
     <string name="profiles_settings_title">情景模式</string>
     <string name="profiles_general_title">常规</string>
     <string name="profiles_add">添加</string>
@@ -2022,14 +2033,14 @@ PIN 可能不正确。"</string>
     <string name="toggleWimax">WiMax</string>
     <string name="screen_security_category">屏幕安全性</string>
     <string name="screen_security_title">锁定屏幕</string>
-    <string name="screen_security_summary">查看或者改变锁屏安全性，延迟以及超时设置</string>
+    <string name="screen_security_summary">查看或者改变锁屏安全性, 延迟以及超时设置</string>
     <string name="additional_options_title">其他选项</string>
     <string name="unlock_menu_unlock_title">菜单键解锁</string>
     <string name="unlock_menu_unlock_summary">按下菜单键即可解锁设备</string>
-    <string name="unlock_home_unlock_title">Home键解锁</string>
-    <string name="unlock_home_unlock_summary">按home键解锁设备</string>
+    <string name="unlock_home_unlock_title">Home 键解锁</string>
+    <string name="unlock_home_unlock_summary">按下 Home 键即可解锁设备</string>
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">输入数字 PIN 或密码后无需按确定按钮即可解锁，按删除键重新输入。</string>
+    <string name="unlock_quick_unlock_control_summary">输入数字 PIN 或密码后无需按确定按钮即可解锁, 按删除键重新输入。</string>
     <string name="delay_and_timeout_title">锁屏延迟</string>
     <string name="slide_lock_delay_title">延迟屏幕锁定</string>
     <string name="slide_lock_timeout_delay_title">屏幕超时后的延迟</string>
@@ -2046,9 +2057,9 @@ PIN 可能不正确。"</string>
     <string name="slide_lock_delay_30m">30 分钟</string>
     <string name="performance_settings_title">性能优化</string>
     <string name="performance_settings_warning_title">请谨慎前进！</string>
-    <string name="performance_settings_warning">"这些设置完全是用于测试与实验。这里的改变将直接影响系统性能，并可能导致系统不稳定，数据丢失，与硬件损伤。
+    <string name="performance_settings_warning">"这些设置完全是用于测试与实验。这里的改变将直接影响系统性能, 并可能导致系统不稳定, 数据丢失, 与硬件损伤。
 
-如果您更改了这里的设置，我们请求您不要向我们提交 Bug 报告。"</string>
+如果您更改了这里的设置, 我们请求您不要向我们提交 Bug 报告。"</string>
     <string name="processor_title">处理器</string>
     <string name="processor_summary">更改 CPU 调节器以及时钟速度</string>
     <string name="cpu_cur_freq_title">当前 CPU 频率</string>
@@ -2078,17 +2089,17 @@ PIN 可能不正确。"</string>
     <string name="dithering_color_banding">修复色帶（默认）</string>
     <string name="dithering_blur_effect">修复色帶与模糊效果</string>
     <string name="pref_use_16bpp_alpha_title">使用16位透明度</string>
-    <string name="pref_use_16bpp_alpha_summary">更好的图形性能，但会降低图像质量以及影响视觉效果. (需要重启)</string>
+    <string name="pref_use_16bpp_alpha_summary">更好的图形性能, 但会降低图像质量以及影响视觉效果. (需要重启)</string>
     <string name="system_update_settings_list_item_title">系统更新</string>
     <string name="system_update_settings_list_item_summary" />
     <string name="donate_settings_title">捐赠</string>
     <string name="donate_settings_summary" />
     <string name="anonymous_statistics_title">CyanogenMod 统计</string>
-    <string name="anonymous_statistics_summary">开启匿名统计报告以便帮助 CyanogenMod 未来向更好的方向发展。</string>
+    <string name="anonymous_statistics_summary">开启匿名统计报告以便帮助 CyanogenMod 未来向更好的方向发展</string>
     <string name="anonymous_statistics_warning_title">关于统计</string>
-    <string name="anonymous_statistics_warning">"开启 CyanogenMod 统计将允许非个人数据被提交到 CyanogenMod 的开发者以便记录各种设备上的独特安装。提交的信息包含一个独特的标识符，而不会涉及您的隐私与个人数据。该数据将在每次启动时被提交。
+    <string name="anonymous_statistics_warning">"开启 CyanogenMod 统计将允许非个人数据被提交到 CyanogenMod 的开发者以便记录各种设备上的独特安装。提交的信息包含一个独特的标识符, 而不会涉及您的隐私与个人数据。该数据将在每次启动时被提交。
 
-作为被提交数据的一个实例，请点击预览数据。"</string>
+作为被提交数据的一个实例, 请点击预览数据。"</string>
     <string name="enable_reporting_title">开启报告</string>
     <string name="preview_data_title">预览数据</string>
     <string name="view_stats_title">查看统计</string>
@@ -2119,8 +2130,10 @@ PIN 可能不正确。"</string>
     <string name="icon_picker_camera">相机</string>
     <string name="icon_picker_chrome">Chrome</string>
     <string name="icon_picker_email">Email</string>
+    <string name="icon_picker_email2">Email Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
     <string name="icon_picker_gallery">图库</string>
+    <string name="icon_picker_google_small">Google (小)</string>
     <string name="icon_picker_googleplus">Google Plus</string>
     <string name="icon_picker_googletalk">Google Talk</string>
     <string name="icon_picker_maps">地图</string>
@@ -2152,7 +2165,7 @@ PIN 可能不正确。"</string>
     <string name="checkbox_increasing_ring">启用</string>
     <string name="increasing_ring_min_volume_title">铃声起始音量</string>
     <string name="increasing_ring_volume_notice">"注意：
-如果起始音量大于系统铃声音量，系统铃声音量将会被使用。"</string>
+如果起始音量大于系统铃声音量, 系统铃声音量将会被使用。"</string>
     <string name="increasing_ring_interval_title">增强间隔</string>
     <string name="increasing_ring_interval_eachring">每次铃声播放</string>
     <string name="increasing_ring_interval_half_second">每 0.5 秒</string>
@@ -2173,20 +2186,20 @@ PIN 可能不正确。"</string>
     <string name="link_volume_ringtones">链接铃声与通知的音量</string>
     <string name="link_volume_mutes">链接铃声与通知的静音</string>
     <string name="adb_over_network">网络 ADB 调试</string>
-    <string name="adb_over_network_summary">通过网络接口 (Wi-Fi, USB 网络)启用TCP/IP调试.该设置重启后失效</string>
-    <string name="adb_over_network_warning">"警告: 网络 ADB 调试启用后, 您的设备将会在已连接的网络（包括GSM数据网络）上被视为是开放的，并有可能被侵入！
+    <string name="adb_over_network_summary">通过网络接口 (Wi-Fi, USB 网络) 启用TCP/IP调试.该设置重启后失效</string>
+    <string name="adb_over_network_warning">"警告: 网络 ADB 调试启用后, 您的设备将会在已连接的网络 (包括GSM数据网络) 上被视为是开放的, 并有可能被侵入! 
 
 请仅在您所信任的网络中使用此功能.
 
-您确实要启用该功能吗？"</string>
+您确实要启用该功能吗?"</string>
     <string name="lockpattern_settings_enable_lock_before_unlock">解锁前显示小部件</string>
     <string name="display_category_animation_options_title">动画</string>
     <string name="display_electron_beam_animation_on_title">开屏动画</string>
     <string name="display_electron_beam_animation_off_title">关屏动画</string>
-    <string name="volume_overlay_title">声控面板</string>
+    <string name="volume_overlay_title">声控面板风格</string>
     <string name="silent_mode_title">静音模式</string>
     <string name="volbtn_music_controls_title">音量键音乐控制</string>
-    <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键将会寻找音乐曲目</string>
+    <string name="volbtn_music_controls_summary">当屏幕关闭时, 长按音量键将会寻找音乐曲目</string>
     <string name="volume_ring_only_description">铃声</string>
     <string name="display_category_wakeup_options_title">唤醒选项</string>
     <string name="pref_volume_wake_title">音量键唤醒</string>
@@ -2195,7 +2208,7 @@ PIN 可能不正确。"</string>
     <string name="verifier_device_identifier">开发设备 ID</string>
     <string name="verifier_device_identifier_not_available">无法读取设备信息</string>
     <string name="kill_app_longpress_back">使用返回键强制关闭程序</string>
-    <string name="kill_app_longpress_back_summary">长按返回键杀死前台应用程序</string>
+    <string name="kill_app_longpress_back_summary">长按返回键将终止前台应用程序</string>
     <string name="device_hostname">设备网络名</string>
     <string name="mod_version">binoMod 版本</string>
     <string name="mod_version_default">未知</string>
@@ -2228,8 +2241,10 @@ PIN 可能不正确。"</string>
     <string name="volume_key_cursor_control_off">禁用</string>
     <string name="volume_key_cursor_control_on">音量上/下将会使光标左/右移动</string>
     <string name="volume_key_cursor_control_on_reverse">音量上/下将会使光标右/左移动</string>
-    <string name="app_security_title">应用安全</string>
-    <string name="sms_security_check_limit_title">SMS安全信息限制</string>
-    <string name="sms_security_check_limit_summary">收到警报，当一个应用程序发送的消息太多（%d封邮件在15分钟内）</string>
+    <string name="cmupdate_settings_title">CyanogenMod 更新</string>
+    <string name="cmupdate_settings_summary">检查, 查看, 或安装可用的更新</string>
+    <string name="app_security_title">程序安全</string>
+    <string name="sms_security_check_limit_title">短信限制</string>
+    <string name="sms_security_check_limit_summary">当某个程序频繁性的发送短信时显示一个警告窗口. 目前限制: 15 分钟内发送 %d 条信息</string>
     <string name="sms_security_check_limit_default">30 (默认)</string>
 </resources>
