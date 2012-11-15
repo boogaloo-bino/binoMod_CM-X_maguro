@@ -237,6 +237,7 @@
         <item>Korea</item>
         <item>Turkey</item>
         <item>Singapore</item>
+        <item>Brazil</item>
     </string-array>
     <string-array name="wifi_countrycode_values">
         <item>US</item>
@@ -249,6 +250,7 @@
         <item>KR</item>
         <item>TR</item>
         <item>SG</item>
+        <item>BR</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Usage time</item>
@@ -1084,6 +1086,22 @@
         <item>300</item>
         <item>500</item>
         <item>1000</item>
+    </string-array>
+    <string-array name="gestures_entries">
+        <item>@string/gestures_action_empty</item>
+        <item>@string/gestures_action_home</item>
+        <item>@string/gestures_action_back</item>
+        <item>@string/gestures_action_menu</item>
+        <item>@string/gestures_action_search</item>
+        <item>@string/gestures_action_recent</item>
+    </string-array>
+    <string-array name="gestures_values">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+        <item>1004</item>
+        <item>1005</item>
     </string-array>
     <string-array name="nav_buttons_height_entries">
         <item>@string/navigation_bar_height_48</item>

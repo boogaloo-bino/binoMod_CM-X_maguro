@@ -92,12 +92,10 @@
     </string-array>
     <string-array name="pref_entries_input_type">
         <item>@string/pref_keyboard_emoji</item>
-        <item>@string/pref_keyboard_send</item>
         <item>@string/pref_keyboard_new_line</item>
     </string-array>
     <string-array name="pref_values_input_type">
         <item>64</item>
-        <item>0</item>
         <item>80</item>
     </string-array>
     <string-array name="select_dialog_items">

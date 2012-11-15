@@ -67,6 +67,23 @@
     <public type="drawable" name="stat_bgon_custom" id="0x7f020068" />
     <public type="drawable" name="stat_inner_focus" id="0x7f020075" />
     <public type="drawable" name="stat_inner_press" id="0x7f020076" />
+    <public type="drawable" name="stat_sys_kb_battery_0" id="0x7f0200d1" />
+    <public type="drawable" name="stat_sys_kb_battery_100" id="0x7f0200d2" />
+    <public type="drawable" name="stat_sys_kb_battery_15" id="0x7f0200d3" />
+    <public type="drawable" name="stat_sys_kb_battery_28" id="0x7f0200d4" />
+    <public type="drawable" name="stat_sys_kb_battery_43" id="0x7f0200d5" />
+    <public type="drawable" name="stat_sys_kb_battery_57" id="0x7f0200d6" />
+    <public type="drawable" name="stat_sys_kb_battery_71" id="0x7f0200d7" />
+    <public type="drawable" name="stat_sys_kb_battery_85" id="0x7f0200d8" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim0" id="0x7f0200da" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim100" id="0x7f0200db" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim15" id="0x7f0200dc" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim28" id="0x7f0200dd" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim43" id="0x7f0200de" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim57" id="0x7f0200df" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim71" id="0x7f0200e0" />
+    <public type="drawable" name="stat_sys_kb_battery_charge_anim85" id="0x7f0200e1" />
+    <public type="drawable" name="stat_sys_kb_battery_unknown" id="0x7f0200e2" />
     <public type="drawable" name="alert_bar_background_normal" id="0x7f020001" />
     <public type="drawable" name="alert_bar_background_pressed" id="0x7f020002" />
     <public type="drawable" name="battery_low_battery" id="0x7f020003" />
@@ -294,23 +311,6 @@
     <public type="drawable" name="notify_panel_clock_bg_normal" id="0x7f020051" />
     <public type="drawable" name="notify_panel_clock_bg_pressed" id="0x7f020052" />
     <public type="drawable" name="recents_bg_protect_tile" id="0x7f020055" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d1" id="0x7f0200d1" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d2" id="0x7f0200d2" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d3" id="0x7f0200d3" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d4" id="0x7f0200d4" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d5" id="0x7f0200d5" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d6" id="0x7f0200d6" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d7" id="0x7f0200d7" />
-    <public type="drawable" name="APKTOOL_DUMMY_00d8" id="0x7f0200d8" />
-    <public type="drawable" name="APKTOOL_DUMMY_00da" id="0x7f0200da" />
-    <public type="drawable" name="APKTOOL_DUMMY_00db" id="0x7f0200db" />
-    <public type="drawable" name="APKTOOL_DUMMY_00dc" id="0x7f0200dc" />
-    <public type="drawable" name="APKTOOL_DUMMY_00dd" id="0x7f0200dd" />
-    <public type="drawable" name="APKTOOL_DUMMY_00de" id="0x7f0200de" />
-    <public type="drawable" name="APKTOOL_DUMMY_00df" id="0x7f0200df" />
-    <public type="drawable" name="APKTOOL_DUMMY_00e0" id="0x7f0200e0" />
-    <public type="drawable" name="APKTOOL_DUMMY_00e1" id="0x7f0200e1" />
-    <public type="drawable" name="APKTOOL_DUMMY_00e2" id="0x7f0200e2" />
     <public type="drawable" name="stat_sys_battery_1" id="0x7f020130" />
     <public type="drawable" name="stat_sys_battery_10" id="0x7f020131" />
     <public type="drawable" name="stat_sys_battery_11" id="0x7f020132" />
@@ -883,84 +883,85 @@
     <public type="id" name="recents_transition_placeholder_icon" id="0x7f0c005a" />
     <public type="id" name="recents_container" id="0x7f0c005b" />
     <public type="id" name="recents_linear_layout" id="0x7f0c005c" />
-    <public type="id" name="recents_no_apps" id="0x7f0c005d" />
-    <public type="id" name="search_panel_container" id="0x7f0c005e" />
-    <public type="id" name="search_bg_protect" id="0x7f0c005f" />
-    <public type="id" name="glow_pad_view" id="0x7f0c0060" />
-    <public type="id" name="toggle" id="0x7f0c0061" />
-    <public type="id" name="slider" id="0x7f0c0062" />
-    <public type="id" name="label" id="0x7f0c0063" />
-    <public type="id" name="bar_contents_holder" id="0x7f0c0064" />
-    <public type="id" name="bar_contents" id="0x7f0c0065" />
-    <public type="id" name="navigationArea" id="0x7f0c0066" />
-    <public type="id" name="back" id="0x7f0c0067" />
-    <public type="id" name="home" id="0x7f0c0068" />
-    <public type="id" name="recent_apps" id="0x7f0c0069" />
-    <public type="id" name="menu" id="0x7f0c006a" />
-    <public type="id" name="fake_space_bar" id="0x7f0c006b" />
-    <public type="id" name="notificationArea" id="0x7f0c006c" />
-    <public type="id" name="bar_shadow_holder" id="0x7f0c006d" />
-    <public type="id" name="bar_shadow" id="0x7f0c006e" />
-    <public type="id" name="dot0" id="0x7f0c006f" />
-    <public type="id" name="dot1" id="0x7f0c0070" />
-    <public type="id" name="dot2" id="0x7f0c0071" />
-    <public type="id" name="dot3" id="0x7f0c0072" />
-    <public type="id" name="compat_mode_radio_group" id="0x7f0c0073" />
-    <public type="id" name="compat_mode_off_radio" id="0x7f0c0074" />
-    <public type="id" name="compat_mode_on_radio" id="0x7f0c0075" />
-    <public type="id" name="item_subtype" id="0x7f0c0076" />
-    <public type="id" name="item_radio" id="0x7f0c0077" />
-    <public type="id" name="item_icon" id="0x7f0c0078" />
-    <public type="id" name="item_title" id="0x7f0c0079" />
-    <public type="id" name="item_subtitle" id="0x7f0c007a" />
-    <public type="id" name="item_vertical_separator" id="0x7f0c007b" />
-    <public type="id" name="item_settings_icon" id="0x7f0c007c" />
-    <public type="id" name="glow" id="0x7f0c007d" />
-    <public type="id" name="hard_keyboard_section" id="0x7f0c007e" />
-    <public type="id" name="use_physical_keyboard_label" id="0x7f0c007f" />
-    <public type="id" name="hard_keyboard_switch" id="0x7f0c0080" />
-    <public type="id" name="input_method_menu_list" id="0x7f0c0081" />
-    <public type="id" name="ime_settings_shortcut" id="0x7f0c0082" />
-    <public type="id" name="feedbackIconArea" id="0x7f0c0083" />
-    <public type="id" name="imeSwitchButton" id="0x7f0c0084" />
-    <public type="id" name="compatModeButton" id="0x7f0c0085" />
-    <public type="id" name="notificationTrigger" id="0x7f0c0086" />
-    <public type="id" name="network_text" id="0x7f0c0087" />
-    <public type="id" name="bluetooth" id="0x7f0c0088" />
-    <public type="id" name="dock_battery_text" id="0x7f0c0089" />
-    <public type="id" name="dock_circle_battery" id="0x7f0c008a" />
-    <public type="id" name="dock_battery" id="0x7f0c008b" />
-    <public type="id" name="content_parent" id="0x7f0c008c" />
-    <public type="id" name="system_bar_notification_panel_bottom_space" id="0x7f0c008d" />
-    <public type="id" name="content_frame" id="0x7f0c008e" />
-    <public type="id" name="notification_scroller" id="0x7f0c008f" />
-    <public type="id" name="title_area" id="0x7f0c0090" />
-    <public type="id" name="mobile_icon" id="0x7f0c0091" />
-    <public type="id" name="mobile_text" id="0x7f0c0092" />
-    <public type="id" name="wifi_icon" id="0x7f0c0093" />
-    <public type="id" name="wifi_direction" id="0x7f0c0094" />
-    <public type="id" name="wifi_text" id="0x7f0c0095" />
-    <public type="id" name="panel_circle_battery" id="0x7f0c0096" />
-    <public type="id" name="notification_button" id="0x7f0c0097" />
-    <public type="id" name="description" id="0x7f0c0098" />
-    <public type="id" name="preview" id="0x7f0c0099" />
-    <public type="id" name="alt" id="0x7f0c009a" />
-    <public type="id" name="status_bar_touch_proxy" id="0x7f0c009b" />
-    <public type="id" name="listview_footer_padding" id="0x7f0c009c" />
-    <public type="id" name="brightness_icon" id="0x7f0c009d" />
-    <public type="id" name="brightness" id="0x7f0c009e" />
-    <public type="id" name="do_not_disturb" id="0x7f0c009f" />
-    <public type="id" name="do_not_disturb_icon" id="0x7f0c00a0" />
-    <public type="id" name="do_not_disturb_checkbox" id="0x7f0c00a1" />
-    <public type="id" name="settings" id="0x7f0c00a2" />
-    <public type="id" name="large_icon" id="0x7f0c00a3" />
-    <public type="id" name="left_icon" id="0x7f0c00a4" />
-    <public type="id" name="text" id="0x7f0c00a5" />
-    <public type="id" name="right_icon" id="0x7f0c00a6" />
-    <public type="id" name="ticker_expanded" id="0x7f0c00a7" />
-    <public type="id" name="notification_inspect_item" id="0x7f0c00a8" />
-    <public type="id" name="recent_remove_item" id="0x7f0c00a9" />
-    <public type="id" name="recent_inspect_item" id="0x7f0c00aa" />
+    <public type="id" name="recents_clear" id="0x7f0c005d" />
+    <public type="id" name="recents_no_apps" id="0x7f0c005e" />
+    <public type="id" name="search_panel_container" id="0x7f0c005f" />
+    <public type="id" name="search_bg_protect" id="0x7f0c0060" />
+    <public type="id" name="glow_pad_view" id="0x7f0c0061" />
+    <public type="id" name="toggle" id="0x7f0c0062" />
+    <public type="id" name="slider" id="0x7f0c0063" />
+    <public type="id" name="label" id="0x7f0c0064" />
+    <public type="id" name="bar_contents_holder" id="0x7f0c0065" />
+    <public type="id" name="bar_contents" id="0x7f0c0066" />
+    <public type="id" name="navigationArea" id="0x7f0c0067" />
+    <public type="id" name="back" id="0x7f0c0068" />
+    <public type="id" name="home" id="0x7f0c0069" />
+    <public type="id" name="recent_apps" id="0x7f0c006a" />
+    <public type="id" name="menu" id="0x7f0c006b" />
+    <public type="id" name="fake_space_bar" id="0x7f0c006c" />
+    <public type="id" name="notificationArea" id="0x7f0c006d" />
+    <public type="id" name="bar_shadow_holder" id="0x7f0c006e" />
+    <public type="id" name="bar_shadow" id="0x7f0c006f" />
+    <public type="id" name="dot0" id="0x7f0c0070" />
+    <public type="id" name="dot1" id="0x7f0c0071" />
+    <public type="id" name="dot2" id="0x7f0c0072" />
+    <public type="id" name="dot3" id="0x7f0c0073" />
+    <public type="id" name="compat_mode_radio_group" id="0x7f0c0074" />
+    <public type="id" name="compat_mode_off_radio" id="0x7f0c0075" />
+    <public type="id" name="compat_mode_on_radio" id="0x7f0c0076" />
+    <public type="id" name="item_subtype" id="0x7f0c0077" />
+    <public type="id" name="item_radio" id="0x7f0c0078" />
+    <public type="id" name="item_icon" id="0x7f0c0079" />
+    <public type="id" name="item_title" id="0x7f0c007a" />
+    <public type="id" name="item_subtitle" id="0x7f0c007b" />
+    <public type="id" name="item_vertical_separator" id="0x7f0c007c" />
+    <public type="id" name="item_settings_icon" id="0x7f0c007d" />
+    <public type="id" name="glow" id="0x7f0c007e" />
+    <public type="id" name="hard_keyboard_section" id="0x7f0c007f" />
+    <public type="id" name="use_physical_keyboard_label" id="0x7f0c0080" />
+    <public type="id" name="hard_keyboard_switch" id="0x7f0c0081" />
+    <public type="id" name="input_method_menu_list" id="0x7f0c0082" />
+    <public type="id" name="ime_settings_shortcut" id="0x7f0c0083" />
+    <public type="id" name="feedbackIconArea" id="0x7f0c0084" />
+    <public type="id" name="imeSwitchButton" id="0x7f0c0085" />
+    <public type="id" name="compatModeButton" id="0x7f0c0086" />
+    <public type="id" name="notificationTrigger" id="0x7f0c0087" />
+    <public type="id" name="network_text" id="0x7f0c0088" />
+    <public type="id" name="bluetooth" id="0x7f0c0089" />
+    <public type="id" name="dock_battery_text" id="0x7f0c008a" />
+    <public type="id" name="dock_circle_battery" id="0x7f0c008b" />
+    <public type="id" name="dock_battery" id="0x7f0c008c" />
+    <public type="id" name="content_parent" id="0x7f0c008d" />
+    <public type="id" name="system_bar_notification_panel_bottom_space" id="0x7f0c008e" />
+    <public type="id" name="content_frame" id="0x7f0c008f" />
+    <public type="id" name="notification_scroller" id="0x7f0c0090" />
+    <public type="id" name="title_area" id="0x7f0c0091" />
+    <public type="id" name="mobile_icon" id="0x7f0c0092" />
+    <public type="id" name="mobile_text" id="0x7f0c0093" />
+    <public type="id" name="wifi_icon" id="0x7f0c0094" />
+    <public type="id" name="wifi_direction" id="0x7f0c0095" />
+    <public type="id" name="wifi_text" id="0x7f0c0096" />
+    <public type="id" name="panel_circle_battery" id="0x7f0c0097" />
+    <public type="id" name="notification_button" id="0x7f0c0098" />
+    <public type="id" name="description" id="0x7f0c0099" />
+    <public type="id" name="preview" id="0x7f0c009a" />
+    <public type="id" name="alt" id="0x7f0c009b" />
+    <public type="id" name="status_bar_touch_proxy" id="0x7f0c009c" />
+    <public type="id" name="listview_footer_padding" id="0x7f0c009d" />
+    <public type="id" name="brightness_icon" id="0x7f0c009e" />
+    <public type="id" name="brightness" id="0x7f0c009f" />
+    <public type="id" name="do_not_disturb" id="0x7f0c00a0" />
+    <public type="id" name="do_not_disturb_icon" id="0x7f0c00a1" />
+    <public type="id" name="do_not_disturb_checkbox" id="0x7f0c00a2" />
+    <public type="id" name="settings" id="0x7f0c00a3" />
+    <public type="id" name="large_icon" id="0x7f0c00a4" />
+    <public type="id" name="left_icon" id="0x7f0c00a5" />
+    <public type="id" name="text" id="0x7f0c00a6" />
+    <public type="id" name="right_icon" id="0x7f0c00a7" />
+    <public type="id" name="ticker_expanded" id="0x7f0c00a8" />
+    <public type="id" name="notification_inspect_item" id="0x7f0c00a9" />
+    <public type="id" name="recent_remove_item" id="0x7f0c00aa" />
+    <public type="id" name="recent_inspect_item" id="0x7f0c00ab" />
     <public type="plurals" name="status_bar_accessibility_recent_apps" id="0x7f0d0000" />
     <public type="style" name="TextAppearance.StatusBar.IntruderAlert" id="0x7f0e0000" />
     <public type="style" name="TextAppearance.StatusBar.SystemPanel" id="0x7f0e0001" />
